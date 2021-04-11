@@ -9,10 +9,29 @@
 <link rel="stylesheet" href="newtab-style.css">
 
 <body>
+  <div class="pull-tab">
+  </div>
+  <div class="list">
+    <ul class="pc">
+      <!-- <div class="site-title"><span class="mac"></span><span>PC</span></div> -->
+      <a href="https://test.qlchat.com/video/admin/live/select" target="_blank"><li>灰度</li></a>
+      <a href="https://test2.qlchat.com/video/admin/live/select" target="_blank"><li>Test 2</li></a>
+      <a href="https://test1.qlchat.com/video/admin/live/select" target="_blank"><li>Test 1</li></a>
+      <a href="https://m.qlchat.com/video/admin/live/select" target="_blank"><li>线上</li></a>
+    </ul>
+    <div class="divider"></div>
+    <ul class="h5">
+      <!-- <div class="site-title"><span class="smartphone"></span><span>H5</span></div> -->
+      <a href="https://m.qlchat.com/wechat/page/mine" target="_blank"><li>线上</li></a>
+      <a href="http://m.test1.qlchat.com/wechat/page/mine" target="_blank"><li>Test 1</li></a>
+      <a href="http://m.test2.qlchat.com/wechat/page/mine" target="_blank"><li>Test 2</li></a>
+      <a href="http://test.qlchat.com/wechat/page/mine" target="_blank"><li>灰度</li></a>
+    </ul>
+  </div>
   <div class="wrap">
     <!-- 重定向至 Google --> <!-- 自动聚焦 autofocus='autofocus' --> 
     <form role="search" action="https://www.google.com/search?q="> 
-        <input type="text" name="q" autocomplete="off" placeholder="找点什么..." class="input-search" id="searchBar">
+        <input type="text" name="q" autocomplete="off" placeholder="找点什么..." class="input-search" id="searchBar" tabindex="0">
     </form>
 
     <div class="container">
